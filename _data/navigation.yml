@@ -77,3 +77,26 @@ de: &DEFAULT_DE
       url: https://github.com/raviriley/agency-jekyll-theme/
 de-DE:
   <<: *DEFAULT_DE
+
+# Korean
+# -----------------
+ko: &DEFAULT_KO
+  nav:
+    - title: "서비스"
+      section: services
+    - title: "포트폴리오"
+      section: portfolio
+    - title: "페이지소개"
+      section: about
+    - title: "페이지 빌드역사"
+      section: timeline
+    - title: "팀원들"
+      section: team
+    - title: "연락처"
+      section: contact
+    - title: "테마 코드"
+      url: https://github.com/bogyum/portfolio/
+ko-KR:
+  <<: *DEFAULT_KO
+
+  
